@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 97%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.section1 {
+    /* background-color: lightcoral; */
+    width: 93%;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+}
+.purplebox {
+    height: 150px;
+    width: 40px;
+    background-color: purple;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+}
+.greenbox {
+    height: 180px;
+    width: 300px;
+    background-color: green;
+    margin: 25px;
+}
+.bluecircle {
+    background-color: lightblue;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+
+
+.section2 {
+    /* background-color: blanchedalmond; */
+    width: 93%;
+    height: 350px;
+    margin: 20px;
+    border: 5px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbox {
+    width: 1200px;
+    height: 250px;
+    background-color: blanchedalmond;
+    box-shadow: 8px 8px 5px black;
+}
+
+
+
+.section3 {
+    /* background-color: aquamarine; */
+    width: 93%;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello {
+    width: 500px;
+    height: 300px;
+    /* background-color: lightcoral; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 10px;
+}
+h1 {
+    letter-spacing: 10px;
+    color: blue;
+}
